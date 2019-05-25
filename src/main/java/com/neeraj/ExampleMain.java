@@ -34,6 +34,8 @@ public class ExampleMain
         String s1= "Hello";
         String s2=s1;
 
+        s2.concat("added");
+
         String s3 = new String("Hello");
 
         System.out.println(s1);
