@@ -33,7 +33,8 @@ public class ExampleMain
 
         String s1= "Hello";
         String s2=s1;
-        System.out.println(s1 + s2);
+        System.out.println(s1);
+        System.out.println(s2);
     }
 
     public int SumoOfArray(int[] x)
