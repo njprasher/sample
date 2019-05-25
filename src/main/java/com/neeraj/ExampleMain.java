@@ -41,6 +41,8 @@ public class ExampleMain
         System.out.println(s1);
         System.out.println(s2);
 
+        String s4 = "Lambton College";
+
         if (s1 == s2)
         {
             System.out.println("S1 = S2");
@@ -66,6 +68,34 @@ public class ExampleMain
         else
         {
             System.out.println("S1 != S3");
+        }
+
+        char character9 = s4.charAt(9);
+
+        System.out.println(character9);
+
+        boolean contains = s4.contains("Lamb");
+
+        System.out.println(contains);
+
+        if (contains)
+        {
+            System.out.println("It contains lamb");
+        }
+        else
+        {
+            System.out.println("It doesn't contains lamb");
+        }
+
+        boolean endingwithcollege = s4.endsWith("College");
+
+        if (endingwithcollege)
+        {
+            System.out.println("It ends with College");
+        }
+        else
+        {
+            System.out.println("It doesn't ends with College");
         }
     }
 
