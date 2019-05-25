@@ -22,12 +22,21 @@ public class ExampleMain
         }
 
         ExampleMain main = new ExampleMain();
+
         int s = main.SumoOfArray(x);
 
         System.out.println("Sum of Array " + s);
+
+        int z[] = main.ReverseTheArray(x);
+
+        System.out.println(z[0]);
+
+        String s1= "Hello";
+        String s2=s1;
+        System.out.println(s1 + s2);
     }
 
-    public int SumoOfArray(int x[])
+    public int SumoOfArray(int[] x)
     {
         int sum = 0;
 
@@ -37,5 +46,19 @@ public class ExampleMain
         }
 
         return (sum);
+    }
+
+    public int[] ReverseTheArray(int[] arr)
+    {
+        int rev[] = new int[arr.length];
+
+        for (int j = 0, i = arr.length - 1 ; i >= 0 ;i--)
+        {
+
+                rev[j++]=arr[i];
+
+        }
+
+        return (rev);
     }
 }
