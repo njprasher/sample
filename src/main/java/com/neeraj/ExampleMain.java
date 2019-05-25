@@ -56,6 +56,15 @@ public class ExampleMain
             {
                 System.out.println("S1 != S3");
             }
+
+        if (s1.equals(s3))
+        {
+            System.out.println("S1 = S3");
+        }
+        else
+        {
+            System.out.println("S1 != S3");
+        }
     }
 
     public int SumoOfArray(int[] x)
