@@ -33,8 +33,29 @@ public class ExampleMain
 
         String s1= "Hello";
         String s2=s1;
+
+        String s3 = new String("Hello");
+
         System.out.println(s1);
         System.out.println(s2);
+
+        if (s1 == s2)
+        {
+            System.out.println("S1 = S2");
+        }
+        else
+            {
+                System.out.println("S1 != S2");
+            }
+
+        if (s1 == s3)
+        {
+            System.out.println("S1 = S3");
+        }
+        else
+            {
+                System.out.println("S1 != S3");
+            }
     }
 
     public int SumoOfArray(int[] x)
